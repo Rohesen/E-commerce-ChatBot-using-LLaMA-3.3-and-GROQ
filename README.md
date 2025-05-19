@@ -16,7 +16,7 @@ This is a **Proof of Concept (POC)** for an intelligent chatbot specifically des
 
 | Chat UI with Query | FAQ Response |
 |--------------------|---------------|
-| ![Chat UI](/app/resources/Chatbot_UI) |![FAQ](/app/resources/FAQ) |
+| ![Chat UI](app/resources/Chatbot_UI) |![FAQ](app/resources/FAQ) |
 
 ---
 
@@ -52,7 +52,7 @@ The chatbot currently supports two main types of user intents:
 User Query ➡️ Router ➡️ (FAQ or SQL) ➡️ GROQ (LLaMA 3.3) ➡️ Response ➡️ Chat Interface
 ```
 
-![FAQ](/app/resources/architecture-diagram)
+![FAQ](app/resources/architecture-diagram)
 
 ---
 
