@@ -27,8 +27,22 @@ sql = Route(
     ]
 )
 
-router = RouteLayer(routes=[faq, sql], encoder=encoder)
+# created a route for small talk and added it in the route layer
+small_talk = Route(
+    name='small-talk',
+    utterances=[
+        "How are you?",
+        "What is your name?",
+        "Are you a robot?",
+        "What are you?",
+        "What do you do?",
+    ]
+)
+
+
+router = RouteLayer(routes=[faq, sql, small_talk], encoder=encoder)
 
 if __name__ == "__main__":
     print(router("What is your policy on defective product?").name)
     print(router("Pink Puma shoes in price range 5000 to 1000").name)
+    print(router("How are you?").name)
