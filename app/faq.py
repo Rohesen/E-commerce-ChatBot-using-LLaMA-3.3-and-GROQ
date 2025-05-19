@@ -1,3 +1,8 @@
+# Force patch sqlite3 to use pysqlite3 (needed for chromadb on Streamlit)
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3
+
 import pandas as pd
 from pathlib import Path
 import chromadb
