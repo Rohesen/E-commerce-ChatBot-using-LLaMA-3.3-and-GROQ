@@ -4,13 +4,12 @@ This is a **Proof of Concept (POC)** for an intelligent chatbot specifically des
 
 🔍 It integrates with the platform’s database, enabling dynamic interactions such as fetching products or answering platform-related FAQs.
 
----
 
 ## 📹 Demo Video
 
 🎥 [Watch Demo Video](https://youtu.be/rhh1rkA4w28)
 
----
+
 
 ## 📸 Screenshots
 
@@ -18,7 +17,7 @@ This is a **Proof of Concept (POC)** for an intelligent chatbot specifically des
 |--------------------|---------------|
 | ![Chat UI](app/resources/Chatbot_UI.png) |![FAQ](app/resources/FAQ.png) |
 
----
+
 
 ## 📁 Folder Structure
 
@@ -28,7 +27,7 @@ This is a **Proof of Concept (POC)** for an intelligent chatbot specifically des
 ├── web-scraping/     # Web scraper for e-commerce product data
 ```
 
----
+
 
 ## 💡 Supported Intents
 
@@ -44,7 +43,7 @@ The chatbot currently supports two main types of user intents:
    _Example:_  
    > Show me all Nike shoes below ₹3000
 
----
+
 
 ## 🧠 Architecture
 
@@ -54,7 +53,7 @@ User Query ➡️ Router ➡️ (FAQ or SQL) ➡️ GROQ (LLaMA 3.3) ➡️ Resp
 
 ![FAQ](app/resources/architecture-diagram.png)
 
----
+
 
 ## ⚙️ Set-up & Execution
 
@@ -77,14 +76,14 @@ User Query ➡️ Router ➡️ (FAQ or SQL) ➡️ GROQ (LLaMA 3.3) ➡️ Resp
    streamlit run app/main.py
    ```
 
----
+
 
 ## 🧑‍💻 Created by
 
 **rohesen** 👨‍💻  
 _This project is part of a learning journey with Codebasics._
 
----
+
 
 ## 📜 License & Terms
 
@@ -95,8 +94,5 @@ However, please note the following:
 - **❌ Commercial use is strictly prohibited** without **prior written permission** from the author.
 - ✅ You must give **attribution** in all copies or substantial portions of the software.
 
-> © Codebasics Inc. All rights reserved.
-
----
 
 Feel free to ⭐️ star the repo or raise an issue if you find this useful or want to collaborate!
