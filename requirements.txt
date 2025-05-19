@@ -1,0 +1,7 @@
+chromadb==0.5.3
+groq==0.24.0
+pandas==2.2.3
+python-dotenv==1.0.1
+semantic-router==0.0.72
+sentence-transformers==4.1.0
+streamlit==1.41.1
