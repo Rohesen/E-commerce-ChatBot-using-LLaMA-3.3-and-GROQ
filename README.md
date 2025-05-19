@@ -14,9 +14,9 @@ This is a **Proof of Concept (POC)** for an intelligent chatbot specifically des
 
 ## 📸 Screenshots
 
-| Chat UI with Query | Product Listings | FAQ Response |
-|--------------------|------------------|---------------|
-| ![Chat UI](https://your-image-link.com/chat-ui.png) | ![Product](https://your-image-link.com/product.png) | ![FAQ](https://your-image-link.com/faq.png) |
+| Chat UI with Query | FAQ Response |
+|--------------------|---------------|
+| ![Chat UI](https://your-image-link.com/chat-ui.png) |![FAQ](https://your-image-link.com/faq.png) |
 
 ---
 
