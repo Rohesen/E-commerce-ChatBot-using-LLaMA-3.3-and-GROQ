@@ -7,7 +7,7 @@ This is a **Proof of Concept (POC)** for an intelligent chatbot specifically des
 
 ## 📹 Demo Video
 
-🎥 [Watch Demo Video](/project_video.gif)
+🎥 [Watch Demo Video](https://github.com/Rohesen/E-commerce-ChatBot-using-LLaMA-3.3-and-GROQ/blob/main/project_video.gif)
 
 
 
