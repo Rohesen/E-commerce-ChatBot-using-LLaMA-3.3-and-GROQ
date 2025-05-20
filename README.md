@@ -8,6 +8,14 @@ It uses **Retrieval-Augmented Generation (RAG)** with **LLaMA 3.3** via the **GR
   
 🔍 It integrates with the platform’s database, enabling dynamic interactions such as fetching products or answering platform-related FAQs.  
 
+
+## 🌐 Live Demo
+
+[![Streamlit App](https://img.shields.io/badge/Live_App-Streamlit-brightgreen?logo=streamlit)](https://e-commerce-chatbot-using-llama-33-and-groq-4qnsvcntgmrubdnuvlx.streamlit.app/)
+
+> 🚀 Click the badge above to try the app live!
+
+
 ## 📸 Screenshots
 
 | Chat UI with Query | FAQ Response |
