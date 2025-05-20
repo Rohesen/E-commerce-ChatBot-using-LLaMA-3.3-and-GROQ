@@ -4,19 +4,11 @@ This is a **Proof of Concept (POC)** for an intelligent chatbot specifically des
 
 🔍 It integrates with the platform’s database, enabling dynamic interactions such as fetching products or answering platform-related FAQs.
 
-
-## 📹 Demo Video
-
-![Watch Demo Video](project_video.gif)
-
-
-
 ## 📸 Screenshots
 
 | Chat UI with Query | FAQ Response |
 |--------------------|---------------|
 | ![Chat UI](app/resources/Chatbot_UI.png) |![FAQ](app/resources/FAQ.png) |
-
 
 
 ## 📁 Folder Structure
@@ -26,8 +18,6 @@ This is a **Proof of Concept (POC)** for an intelligent chatbot specifically des
 ├── app/              # All the chatbot code (Streamlit app, logic, routing)
 ├── web-scraping/     # Web scraper for e-commerce product data
 ```
-
-
 
 ## 💡 Supported Intents
 
@@ -42,7 +32,6 @@ The chatbot currently supports two main types of user intents:
    Executes live queries on the product database to return relevant results.  
    _Example:_  
    > Show me all Nike shoes below ₹3000
-
 
 
 ## 🧠 Architecture
@@ -76,6 +65,10 @@ User Query ➡️ Router ➡️ (FAQ or SQL) ➡️ GROQ (LLaMA 3.3) ➡️ Resp
    streamlit run app/main.py
    ```
 
+
+## 📹 Demo Video
+
+![Watch Demo Video](project_video.gif)
 
 
 ## 🧑‍💻 Created by
