@@ -7,7 +7,7 @@ This is a **Proof of Concept (POC)** for an intelligent chatbot specifically des
 
 ## 📹 Demo Video
 
-🎥 [Watch Demo Video](project_video.gif)
+🎥 [Watch Demo Video](/project_video.gif)
 
 
 
