@@ -1,8 +1,11 @@
 # 🛍️💬 E-commerce ChatBot (Gen AI RAG Project using LLaMA 3.3 & GROQ)
 
 This is a **Proof of Concept (POC)** for an intelligent chatbot specifically designed for an **e-commerce platform**.  
+  
 The chatbot enhances user experience by understanding natural language queries and identifying user intent with precision.   
+  
 It uses **Retrieval-Augmented Generation (RAG)** with **LLaMA 3.3** via the **GROQ API** to deliver accurate and real-time responses.  
+  
 🔍 It integrates with the platform’s database, enabling dynamic interactions such as fetching products or answering platform-related FAQs.  
 
 ## 📸 Screenshots
