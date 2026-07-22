@@ -92,7 +92,7 @@ User Query ➡️ Router ➡️ (FAQ or SQL) ➡️ GROQ (LLaMA 3.3) ➡️ Resp
 ## 🧑‍💻 Created by
 
 **rohesen** 👨‍💻  
-_This project is part of a learning journey with Codebasics._
+_This project is part of a learning journey._
 
 
 
