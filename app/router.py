@@ -31,9 +31,10 @@ faq = Route(
 
         # Cancellation
         "Can I cancel my order?",
-        "How do I cancel my order?",
+        "How can I cancel my order?",
         "I want to cancel my order",
-        "Can an order be cancelled?",
+        "Can I modify my order?",
+        "Can I change my order after placing it?",
 
         # Tracking
         "How can I track my order?",
