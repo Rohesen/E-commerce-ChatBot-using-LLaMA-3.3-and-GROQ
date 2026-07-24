@@ -8,7 +8,7 @@ from router import router
 st.markdown(
     """
     <div style='text-align: center; font-size: 12px; color: gray;'>
-        Created By Rohesen ♥️
+        Created By Rohesen Maurya♥️
     </div>
     """,
     unsafe_allow_html=True
@@ -20,15 +20,23 @@ ingest_faq_data(faqs_path)
 
 # Query routing logic
 def ask(query):
-    route = router(query).name
-    if route == 'faq':
+    route_result = router(query)
+    route = route_result.name
+
+    if route == "faq":
         return faq_chain(query)
-    elif route == 'sql':
+
+    elif route == "sql":
         return sql_chain(query)
-    elif route == 'small-talk':
+
+    elif route == "small-talk":
         return talk(query)
+
     else:
-        return f"❌ Route '{route}' not implemented yet."
+        return (
+            "I'm not sure whether that's a product, FAQ, "
+            "or general question. Could you rephrase it?"
+        )
 
 # Streamlit app UI
 st.title("🛍️ E-commerce ChatBot")
